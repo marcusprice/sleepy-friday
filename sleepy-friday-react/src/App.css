@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  width: 100vw; height: 100vh;
+  background-image: url('./img/sleepy-friday.jpeg');
+  background-size: cover;
+  opacity: .8;
+}
+
+.App h1 {
+  padding-top: 25px;
+  margin: 0 auto;
+  font-size: 5em;
+  color: #222;
+}
+.Countdown {
+  padding-top: 25px;
+  width: 625px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CountdownItem {
+  background-color: #EEE;
+  width: 125px;
+  height: 115px;
+  border-radius: 5px;
+  opacity: .7;
+  border: solid white 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1em;
+}
+
+.counter {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.date-type {
+  font-size: 25px;
+}

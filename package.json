@@ -1,0 +1,22 @@
+{
+  "name": "sleepy-friday",
+  "version": "1.0.0",
+  "description": "Countdown app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusprice/sleepy-friday.git"
+  },
+  "author": "Marcus Price",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusprice/sleepy-friday/issues"
+  },
+  "homepage": "https://github.com/marcusprice/sleepy-friday#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
